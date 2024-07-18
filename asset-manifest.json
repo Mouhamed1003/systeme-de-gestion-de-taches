@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/systeme-de-gestion-de-taches/static/css/main.8dd88b8d.css",
+    "main.js": "/systeme-de-gestion-de-taches/static/js/main.f8c076fd.js",
+    "static/js/453.63c0ef7e.chunk.js": "/systeme-de-gestion-de-taches/static/js/453.63c0ef7e.chunk.js",
+    "index.html": "/systeme-de-gestion-de-taches/index.html",
+    "main.8dd88b8d.css.map": "/systeme-de-gestion-de-taches/static/css/main.8dd88b8d.css.map",
+    "main.f8c076fd.js.map": "/systeme-de-gestion-de-taches/static/js/main.f8c076fd.js.map",
+    "453.63c0ef7e.chunk.js.map": "/systeme-de-gestion-de-taches/static/js/453.63c0ef7e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dd88b8d.css",
+    "static/js/main.f8c076fd.js"
+  ]
+}
