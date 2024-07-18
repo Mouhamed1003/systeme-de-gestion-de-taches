@@ -1,32 +1,24 @@
-/* ---------------------------------------------*/
 body {
   margin: 0;
   padding: 20px;
   background-color: rgb(72, 27, 92);
   user-select: none;
   font-weight: bold;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
 h1, h2 {
   color: #38f4f4;
+  font-size: clamp(1.5rem, 4vw, 3rem);
 }
 
-button {
+button, .input, .button {
   margin-left: 10px;
-}
-.input, .button {
-  margin-left: 10px;
-  padding: 10px;
+  padding: clamp(5px, 2vw, 15px); 
   border-radius: 5px;
   font-weight: bold;
 }
 
-/* ---------------------------------------------*/
 table {
   width: 100%;
   border-collapse: collapse;
@@ -52,7 +44,7 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #38f4f40e;
 }
-/* ---------------------------------------------*/
+
 .notification {
   padding: 10px;
   margin-bottom: 10px;
@@ -78,41 +70,37 @@ tr:hover {
 }
 
 .tasks-count-and-title h2 {
-  margin: 12px; 
+  margin: 12px;
 }
 
 .welcome-marquee {
-  font-size: 20px;
+  font-size: clamp(1rem, 3vw, 2rem);
   color: #f0f0f0;
   background-color: rgb(43, 3, 62);
   padding: 10px;
   border-radius: 5px;
-  padding-right: 0px;
 }
 
 .icons-size-edit {
-  font-size: 25px;
+  font-size: clamp(1rem, 2.5vw, 2rem);
   color: #3030f5;
   background-color: transparent;
   border-radius: 5px;
-
 }
 
-.icons-size-delet {
-  font-size: 25px;
+.icons-size-delete {
+  font-size: clamp(1rem, 2.5vw, 2rem);
   color: red;
   background-color: transparent;
   border-radius: 5px;
-
 }
 
-.Color-save {
+.color-save {
   background-color: rgb(88, 196, 88);
 }
 
-.Color-cancel {
+.color-cancel {
   background-color: rgb(183, 177, 177);
-
 }
 
 .input {
