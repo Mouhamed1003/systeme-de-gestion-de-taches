@@ -207,7 +207,7 @@ tr:hover {
 }
 
 /* iPhone 12 Pro Max (specific width 390px) */
-@media (max-width: 300px) {
+@media (max-width: 250px) {
   body {
     padding: 10px;
     font-size: 1rem;
