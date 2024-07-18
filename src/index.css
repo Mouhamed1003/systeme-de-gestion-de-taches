@@ -120,6 +120,11 @@ tr:hover {
   color: white;
   font-weight: bold;
 }
+form {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
 
 /* Large devices (desktops, less than 992px) */
 @media (max-width: 1700px) {
@@ -206,7 +211,7 @@ tr:hover {
 }
 }
 
-/* iPhone 12 Pro Max (specific width 390px) */
+/* iPhone 12 Pro Max (specific width 375px) */
 @media (max-width: 375px) {
   body {
     padding: 10px;
@@ -243,6 +248,6 @@ tr:hover {
   form {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 }
