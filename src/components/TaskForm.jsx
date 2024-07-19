@@ -23,6 +23,7 @@ const TaskForm = () => {
         <h2>Nombre de taches ajoutées : {`( ${taskCount} )`}</h2>
       </div>
       <form onSubmit={handleSubmit}>
+        <div id='input_button'>
         <input
           className='input'
           type="text"
@@ -31,6 +32,8 @@ const TaskForm = () => {
           onChange={(e) => setTitle(e.target.value)}
         />
         <button className='button' type="submit">Ajouter une Tâche</button>
+        </div>
+        
       </form>
     </div>
   );
