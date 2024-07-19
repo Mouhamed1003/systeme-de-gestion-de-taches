@@ -226,4 +226,8 @@ form#input_button {
     grid-template-rows: 1fr;
     gap: 0.5rem;
   }
+  .tasks-count-and-title h2 {
+    margin: 8px;
+    font-size: large; 
+  }
 }
